@@ -1,0 +1,178 @@
+/* This sets up the name of the page, the background color, and the look of the hyperlinks */
+
+body {
+    font-family: 'Electrolize', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    color:whitesmoke;
+    background-color:#7395AE;
+    line-height: 70px;
+}
+
+/* This moves the hyperlinks to the right side of the page */
+/* The hyperlinks positioning and font-size were modified here*/
+
+
+nav {
+    text-align:right;
+    position:relative;
+    bottom: 85px;
+    margin: 40px;
+    font-size:25px;
+}
+
+/* No bullet points on the hyperlinks */
+
+ul {
+    list-style: none;
+}
+
+/* Hyperlinks are displayed in a row vs. stacked on top of each other*/
+
+li {
+    display:inline;
+}
+
+/* This sets up the background image size below the header */
+.backimage {
+    width: 100%;
+    position:relative;
+    bottom:110px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+/* This sets up how the three hyperlinks in the header will look like */
+.links a {
+    padding:10px;
+    position: relative;
+    bottom: 5px;
+    background-color:#7395AE;
+    margin:20px;
+    border-radius:10px;
+    border:gray;
+}
+
+/* This sets up how the hyperlinks will act when you hover the cursor over it */
+a:hover {
+    color:gray;
+    background-color:whitesmoke;
+}
+
+/* This sets up the wording for the background image */
+h2 {
+    text-align:start;
+    font-size: 25px;
+    color: cadetblue;
+    line-height: 70px;
+    position:relative;
+    bottom: 110px;
+    background-color:whitesmoke;
+}
+
+/* This sets up the wording of "About" */
+h3 {
+    display:flex;
+    align-items: center;
+    font-size:25px;
+    color:gray;
+    position:relative;
+    top:50px;
+}
+
+/* This sets up the "About" summary */
+
+h3 ul li {
+    text-align:right;
+}
+
+/* This sets up the images in the project section */
+input {
+    display:inline-flex;
+}
+
+.aboutbox {
+    border-style:solid;
+    border-color:cornflowerblue;
+    border-width:thick;
+    position: relative;
+    bottom: 114px;
+    margin-bottom: -114px;
+    background-color:whitesmoke;
+}
+/* This adds left margin to the about-me text to look better visually*/
+
+.aboutme {
+    margin-left: 250px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: cadetblue;
+    
+}
+
+/* This sets up the Work font and the background for this section */
+
+#projects {
+    font-size:25px;
+    color:whitesmoke;
+    line-height:70px;
+    background-color:#7395AE;
+}
+
+#Project1, #Project2 {
+    border: 5px solid #5CDB95;
+}
+
+/* This sets up the display of the contacts section
+(background and font) */
+#contact {
+    color:whitesmoke;
+    background-color:#7395AE;
+    text-align: start;
+    line-height:70px;
+    font-size:25px;
+    bottom:100px;
+    word-spacing: 60px;
+}
+
+/* This sets up the Contact Info font settings, placement, and background */
+
+.Info li{
+    color:whitesmoke;
+    background-color:#7395AE;
+    text-align:center;
+    line-height:70px;
+    font-size:25px;
+    margin:20px;
+    line-height:70px;
+    position:relative;
+    bottom:25px;
+    padding:10px;
+    border-radius:10px;
+    border:gray;
+}
+
+/* This sets up the functionality of the contact hyperlinks
+when you hover over them */
+
+.Info li:hover{
+    justify-content: space-between;
+    color:gray;
+    background-color:whitesmoke;
+}
+
+/* This line is for responsive screens */
+/* The image will wrap until it reaches its max width */
+
+@media screen and (max-width:992px) {
+    .img {
+        display:flex;
+        flex-wrap: wrap;
+    }
+}

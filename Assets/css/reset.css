@@ -1,0 +1,49 @@
+/* Reset.css file comments */
+/* This resets the margin the padding of all sections */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* This reconfigures the a tag with a different text color and decoration */
+a {
+  text-decoration: solid;
+  color: whitesmoke;
+}
+
+
+html {
+  height: 100%;
+}
+
+/* This displays text and images in a row vs. a column */
+header {
+  display:inline;
+}
+
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+/* This reconfigures the font size for all section titles */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+input, select, option, optgroup, textarea, button,
+pre, code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+/* This takes away the margin,padding,and list-style */
+ol, ul {
+  list-style: none;
+  margin:0px;
+  padding:0px;
+}
