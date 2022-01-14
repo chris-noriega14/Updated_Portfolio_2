@@ -1,6 +1,6 @@
 # Updated_Portfolio
 
-Screenshot of the deployed application:(https://github.com/chris-noriega14/Updated_Portfolio/blob/main/Assets/images/screencapture-updated-portfolio.png?raw=true)
+Screenshot of the deployed application: ![main](https://github.com/chris-noriega14/Updated_Portfolio/blob/main/Assets/images/screencapture-updated-portfolio.png?raw=true)
 
 URL Link to deployed portfolio: https://chris-noriega14.github.io/Updated_Portfolio_2/
 
